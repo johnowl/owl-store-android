@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Owl Store</string>
+    <string name="gravar">Gravar</string>
+    <string name="codigo_de_barras">Código de barras</string>
+    <string name="codigo_no_catalogo">Código no catálogo</string>
+    <string name="selecione_marca">Selecione a marca</string>
+    <string name="selecione_categoria">Selecione a categoria</string>
+    <string name="cadastrar_produto">Cadastrar produto</string>
+    <string name="ler_codigo_barras">Ler código de barras</string>
+</resources>

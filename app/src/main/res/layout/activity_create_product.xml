@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".CreateProductActivity">
+
+    <EditText
+        android:id="@+id/barcodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codigo_de_barras"
+        android:autofillHints="@string/codigo_de_barras"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/catalogCodeEditText"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codigo_no_catalogo"
+        android:autofillHints="@string/codigo_no_catalogo"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:id="@+id/brandSpinner"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:prompt="@string/selecione_marca"
+        />
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        android:prompt="@string/selecione_categoria"
+        />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorPrimaryLight"
+        android:onClick="saveProductButton"
+        android:text="@string/gravar"
+        />
+
+</LinearLayout>
