@@ -5,7 +5,12 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".CreateProductActivity">
+    tools:context=".product.ui.CreateProductActivity">
+
+    <include layout="@layout/progress_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
 
     <EditText
         android:id="@+id/barcodeEditText"

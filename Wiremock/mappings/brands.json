@@ -1,0 +1,28 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/products/brands"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "items": [
+                {
+                    "id": "1",
+                    "name": "Avon"
+                },
+                {
+                    "id": "2",
+                    "name": "Natura"
+                },    
+                {
+                    "id": "3",
+                    "name": "Ruby Rose"
+                }                
+            ]
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

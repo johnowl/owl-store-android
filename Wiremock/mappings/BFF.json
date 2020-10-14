@@ -1,0 +1,42 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/bff/brands-categories"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "brands": [
+                {
+                    "id": "1",
+                    "name": "Avon"
+                },
+                {
+                    "id": "2",
+                    "name": "Natura"
+                },
+                {
+                    "id": "3",
+                    "name": "Ruby Rose"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "1",
+                    "name": "Shampoo"
+                },
+                {
+                    "id": "2",
+                    "name": "Condicionador"
+                },
+                {
+                    "id": "3",
+                    "name": "Perfume"
+                }
+            ]
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

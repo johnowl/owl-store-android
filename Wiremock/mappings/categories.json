@@ -1,0 +1,28 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/products/categories"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "items": [
+                {
+                    "id": "1",
+                    "name": "Shampoo"
+                },
+                {
+                    "id": "2",
+                    "name": "Condicionador"
+                },    
+                {
+                    "id": "3",
+                    "name": "Perfume"
+                }                
+            ]
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
